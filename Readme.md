@@ -86,9 +86,6 @@ A powerful command-line application for:
 
 **Planned features:**
 
-* [ ] Add support for more image formats (JPG ⇄ PNG ⇄ WebP ⇄ ICO ⇄ BMP)
-* [ ] Add support for more video formats (AVI ⇄ MOV ⇄ MKV ⇄ WebM ⇄ FLV)
-* [ ] Add playlist & channel downloader for YouTube
 * [ ] Add batch-conversion with progress display
 * [ ] Multi-platform support (Linux, macOS via Wine/Mono wrappers)
 * [ ] Automatic dependency installer with GUI dialog
@@ -105,13 +102,10 @@ You are not permitted to download, distribute, or use this software outside of i
 
 The author assumes no responsibility or liability for any consequences, direct or indirect, resulting from the use, distribution, or modification of this program.
 
-Use of this tool may violate the Terms of Service of platforms like Spotify, YouTube, or others. Any misuse is strictly prohibited.
-
 ---
 
 ## 📜 License & Usage
 
-This project is **UNLICENSED**.
 It may only be used as a **fork** on GitHub for educational and non-commercial purposes.
 
 You may:
@@ -131,4 +125,5 @@ All rights reserved.
 
 **[Heysh1n aka hs1n](https://github.com/Heysh1n)**
 Feel free to open issues or submit pull requests (educational contributions only)!
+
 
