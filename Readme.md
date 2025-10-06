@@ -89,6 +89,7 @@ A powerful command-line application for:
 * [ ] Add batch-conversion with progress display
 * [ ] Multi-platform support (Linux, macOS via Wine/Mono wrappers)
 * [ ] Automatic dependency installer with GUI dialog
+* [ ] Optianal `.apk` build (portable for Android)
 * [ ] Optional `.exe` build (standalone, no Python required)
 
 ---
@@ -125,5 +126,6 @@ All rights reserved.
 
 **[Heysh1n aka hs1n](https://github.com/Heysh1n)**
 Feel free to open issues or submit pull requests (educational contributions only)!
+
 
 
