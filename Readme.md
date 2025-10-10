@@ -47,31 +47,37 @@ A powerful command-line application for:
 ## 📁 Project Structure
 
 ```
-/HS1N-ToolBox
-   /doned
-      /videos
-      /videos-music
-      /spotify-music
-      /converter
-         /inputs
-         /outputs
-   /src
-      /convertors
-         /modules
-            /2mp3.bat
-            /AudioConvertor.bat
-            /VideoConvertor.bat
-            /ImageConvertor.bat
-         /ConvertorCore.bat
-      /downloader
-         /Downloader.bat
-         /yt-dlp.exe
-      /music
-         /SpotifyDownloader.bat
-      /setup
-         /Setup1.ps1
-   main.bat
-   readme.md
+HS1N LOADER/
+├── src/
+│   ├── config/                      # Configuration and utility modules
+│   │   ├── animation.py             # Loading animations and spinners
+│   │   ├── banners.py               # ASCII banners for CLI
+│   │   ├── colors.py                # Terminal color codes and gradient styles
+│   │   ├── error_handler.py         # Centralized error logging and handling
+│   │   └── ui_helper.py             # CLI UI helpers, prompts, menus, messages
+│   │
+│   ├── convertors/                  # Conversion logic
+│   │   ├── convertor_core.py        # Main conversion engine
+│   │   └── modules/                 # Specific converters
+│   │       ├── audio_convertor.py
+│   │       ├── image_convertor.py
+│   │       ├── toMP3.py
+│   │       └── video_convertor.py
+│   │
+│   ├── downloaders/                 # Download managers
+│   │   ├── music_dowloader.py       # Spotify/music downloader
+│   │   └── video_downloader.py      # Video downloader (YouTube etc.)
+│   │
+│   ├── logs/                        # Log files for errors and actions
+│   │   └── spotify_errors.log       # Example: Spotify downloader logs
+│   │
+│   └── setup/                       # Setup scripts and main entry point
+│       ├── setup.py                 # Initial setup / installation
+│
+├── main.py                          # Main executable file
+│
+└── readme.md                        # Project documentation
+
 ```
 
 ---
@@ -79,18 +85,20 @@ A powerful command-line application for:
 ## 🚀 Roadmap
 
 * [x] Core functionality: download videos & music
-* [x] Add Spotify music downloader (via `spotdl`)
 * [x] Add universal audio/video/image converters
 * [x] Organized folder structure (`inputs`, `outputs`, `logs`)
 * [x] Auto-update for `yt-dlp`
+* [x] Optional `.exe` build (standalone, no Python required)
+* [x] Add batch-conversion with progress display
+* [x] Multi-platform support (Linux, macOS)
 
 **Planned features:**
 
-* [ ] Add batch-conversion with progress display
-* [ ] Multi-platform support (Linux, macOS via Wine/Mono wrappers)
+
 * [ ] Automatic dependency installer with GUI dialog
 * [ ] Optianal `.apk` build (portable for Android)
-* [ ] Optional `.exe` build (standalone, no Python required)
+* [ ] Fix Spotify Downloader (spotdl was update and old functionality don't work)
+* [ ] Compilate to `.exe` and publicate to `Releases`
 
 ---
 
