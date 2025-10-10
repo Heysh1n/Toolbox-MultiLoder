@@ -91,11 +91,12 @@ HS1N LOADER/
 * [x] Optional `.exe` build (standalone, no Python required)
 * [x] Add batch-conversion with progress display
 * [x] Multi-platform support (Linux, macOS)
+* [x] Automatic dependency installer with GUI dialog
 
 **Planned features:**
 
 
-* [ ] Automatic dependency installer with GUI dialog
+
 * [ ] Optianal `.apk` build (portable for Android)
 * [ ] Fix Spotify Downloader (spotdl was update and old functionality don't work)
 * [ ] Compilate to `.exe` and publicate to `Releases`
